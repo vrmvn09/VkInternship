@@ -5,7 +5,6 @@
 //  Created by Arman  Urstem on 06.09.2024.
 //
 
-import Foundation
 import UIKit
 
 class TableViewCell: UITableViewCell {
@@ -45,7 +44,7 @@ class TableViewCell: UITableViewCell {
     
     private func setupViews() {
         layer.cornerRadius = 16
-        backgroundColor = UIColor(red: 0.0, green: 119/255.0, blue: 1.0, alpha: 1.0)
+        backgroundColor = UIColor(hex: "#0077FF")
         
         contentView.addSubview(weatherIconImageView)
         contentView.addSubview(infoLabel)
@@ -55,7 +54,9 @@ class TableViewCell: UITableViewCell {
             weatherIconImageView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
             weatherIconImageView.widthAnchor.constraint(equalToConstant: 50),
             weatherIconImageView.heightAnchor.constraint(equalToConstant: 50),
-            
+    
+
+        
             infoLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
             infoLabel.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
             infoLabel.trailingAnchor.constraint(lessThanOrEqualTo: weatherIconImageView.leadingAnchor, constant: -10)
