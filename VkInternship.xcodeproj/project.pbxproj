@@ -46,6 +46,7 @@
 		9DB7E7022C8B14D600ACD17A = {
 			isa = PBXGroup;
 			children = (
+				9DB7E7262C8B4E0300ACD17A /* README.md */,
 				9DB7E70D2C8B14D600ACD17A /* VkInternship */,
 				9DB7E70C2C8B14D600ACD17A /* Products */,
 			);
@@ -71,7 +72,6 @@
 				9DB7E71C2C8B14D800ACD17A /* Info.plist */,
 				9DB7E7222C8B203700ACD17A /* SearchViewController.swift */,
 				9DB7E7242C8B3A3B00ACD17A /* TableViewCell.swift */,
-				9DB7E7262C8B4E0300ACD17A /* README.md */,
 			);
 			path = VkInternship;
 			sourceTree = "<group>";
